@@ -1,0 +1,31 @@
+#container{
+    background: #999;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.itens{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    margin: 10px;
+}
+
+
+.itens:nth-child(1){
+    flex-grow: 2;
+}
+
+.itens:nth-child(2){
+    flex-shrink: 3;
+    order: 1;
+}
+
+.itens:nth-child(3){
+    flex-grow: 2;
+}
