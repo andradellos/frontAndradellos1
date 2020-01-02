@@ -1,0 +1,22 @@
+#navigation > ul > li{
+ display: inline-block; 
+}
+
+#navigation > ul > li > a{
+    text-decoration: none;
+    color: #707070;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 0 5px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    
+}
+
+#navigation > ul > li > a:hover{
+    color: #8a378d;
+    border-bottom: .5px dotted #8a378d;
+    border-top: .5px dotted #8a378d;
+    padding: 10px 15px;
+}
