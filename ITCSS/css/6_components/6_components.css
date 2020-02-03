@@ -1,3 +1,33 @@
 #brand > img{
     height: 40px;
 }
+
+button{
+    width: 140px;
+    height: 31px;
+    border-radius: 50px;  
+    background-color: #488cf5;
+    border: none;
+    transition: all .3s ease-in-out ;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold; 
+    color: white;
+  }
+
+button > img{
+    width: 15px;
+    vertical-align: middle;
+}
+
+button:hover {
+   background-color: darkcyan;
+}
+
+#btn-bag{
+    background-color: #f4891f;
+}
+
+#btn-bag:hover {
+    background-color: darkcyan;
+}
