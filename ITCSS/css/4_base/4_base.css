@@ -53,6 +53,8 @@ table {
     grid-template-areas:"header    header"
                         "article   picture"
                         "footer    picture";
+    width: 80%;
+    margin: 25px auto;
 }
 header{
     grid-area: header;
@@ -62,4 +64,8 @@ header{
 }
 nav{
     flex-grow: 1;
+}
+picture{
+    grid-area: picture;
+    justify-self: end;
 }
